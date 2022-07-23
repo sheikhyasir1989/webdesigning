@@ -1,0 +1,47 @@
+body {
+    
+    background: #0ef521;
+    color: white;
+}
+button {
+    width: 100px;
+    height: 30px;
+    border: 5px soldi white;
+    border-radius: 50px;
+    background: #202020;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+#stopwatch {
+    font-size: 100px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+#buttons {
+    position: absolute;
+    top: 55%;
+    left: 48.4%;
+    transform: translate(-51.6%, -45%);
+    
+      
+}
+@media screen and (min-width: 100px) {
+    #stopwatch {width: 500px; float: right; padding: 20%; }
+    #buttons {width: 400px; float: right; padding: 20%;}
+  }
+#btnstart {
+    display: inline;
+    padding-left: 10px;
+    
+    
+}
+
+a:hover {
+    background-color: yellow;
+  }
+
+
